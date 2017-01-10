@@ -1,9 +1,5 @@
-body {
-  background: #333;
+canvas {
+  background:#888;
+  display: block;
 }
 
-canvas {
-  background: #AAA;
-  display: block;
-  margin: 3% auto;
-}
