@@ -3,22 +3,27 @@
 const canvas = document.getElementById('gameCanvas');
 const pencil = canvas.getContext('2d');
 
-let x = 100;
-let y = 100;
-let speedx = 1;
-let speedy = 1;
+const canvasWidth = canvas.width;
+const canvasHeight = canvas.height;
+const tunnelWidth = 100;
 
-function drawSquare() {
+// rect( x , y , width , height)
+
+function drawTunnels() {
   pencil.beginPath();
-  pencil.rect(20, 40, 50, 50);
-  pencil.fillStyle = 'red';
+  pencil.rect(200, 0, tunnelWidth, 300);
+  pencil.rect(200, 200, 200,tunnelWidth);
+  pencil.rect(400, 100, tunnelWidth,200);
+  pencil.rect(400, 100, 300,tunnelWidth);
+  pencil.rect(600, 100, tunnelWidth,250);
+  pencil.fillStyle = '#00000';
   pencil.fill();
-  pencil.strokeStyle = 'black';
-  pencil.stroke();
   pencil.closePath();
 }
 
 function render() {
-  drawSquare();
+  drawTunnels();
 }
 setInterval(render, 10);
+
+
