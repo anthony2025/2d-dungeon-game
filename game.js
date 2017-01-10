@@ -8,14 +8,25 @@ const canvasHeight = canvas.height;
 const tunnelWidth = 100;
 
 // rect( x , y , width , height)
+// VER pencil.rect(200, 700, tunnelWidth, 200);
+// HOR pencil.rect(200, 700, 200, tunnelWidth);
+
 
 function drawTunnels() {
   pencil.beginPath();
-  pencil.rect(200, 0, tunnelWidth, 300);
-  pencil.rect(200, 200, 200, tunnelWidth);
-  pencil.rect(400, 100, tunnelWidth, 200);
-  pencil.rect(400, 100, 300, tunnelWidth);
-  pencil.rect(600, 100, tunnelWidth, 250);
+
+  pencil.rect(200, 0, tunnelWidth, 400);
+  pencil.rect(200, 300, 200, tunnelWidth);
+  pencil.rect(400, 200, tunnelWidth, 200);
+  pencil.rect(400, 200, 250, tunnelWidth);
+
+  pencil.rect(200, 0, 900, tunnelWidth);
+  pencil.rect(650, 200, tunnelWidth, 350);
+  pencil.rect(1050, 0, tunnelWidth, 550);
+  pencil.rect(800, 450, 400, tunnelWidth);
+
+  pencil.rect(500, 550, 400, tunnelWidth);
+
   pencil.fillStyle = '#000';
   pencil.fill();
   pencil.closePath();
