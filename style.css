@@ -2,8 +2,12 @@
   padding: 0; margin: 0;
 }
 
+body {
+  background: #333;
+}
+
 canvas {
-  background: #eee;
+  background: #AAA;
   display: block;
-  margin: 0 auto;
+  margin: 10% auto;
 }
