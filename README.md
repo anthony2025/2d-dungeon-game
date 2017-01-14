@@ -9,5 +9,5 @@ Tiny 2D dungeon game on vanilla js.
 
 ## Authors:
 
-* **Cesar Ascencio** - *Design* - [cesarascencioo](https://github.com/cesarascencioo)
-* **Anthony Ascencio** - *Engine* - [anthony2025](https://github.com/anthony2025)
+* **Cesar Ascencio** - [cesarascencioo](https://github.com/cesarascencioo)
+* **Anthony Ascencio** - [anthony2025](https://github.com/anthony2025)
