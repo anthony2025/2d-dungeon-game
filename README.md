@@ -1,4 +1,4 @@
-## In Progress
+## Unfinished
 
 Tiny 2D dungeon game on vanilla js.
 
