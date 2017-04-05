@@ -1,4 +1,4 @@
-## Unfinished
+### Unfinished
 
 Tiny 2D dungeon game on vanilla js.
 
@@ -9,7 +9,22 @@ Tiny 2D dungeon game on vanilla js.
 * simple collision detection
 * lots of stupid pictures
 
-## Authors:
-
-* **Cesar Ascencio** - [cesarascencioo](https://github.com/cesarascencioo)
-* **Anthony Ascencio** - [anthony2025](https://github.com/anthony2025)
+### Team Members
+<table>
+  <tbody>
+    <tr>
+      <td align="center">
+        <img width="150 height="150"
+        src="https://avatars.githubusercontent.com/anthony2025?v=3">
+        <br />
+        <a href="https://github.com/anthony2025">Anthony Ascencio</a>
+      </td>
+      <td align="center">
+        <img width="150 height="150"
+        src="https://avatars.githubusercontent.com/cesarascencioo?v=3">
+        <br />
+        <a href="https://github.com/cesarascencioo">Cesar Ascencio</a>
+      </td>
+    <tr>
+  <tbody>
+</table>
